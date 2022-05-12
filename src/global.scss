@@ -1,0 +1,16 @@
+$body-font-family: 'SF Pro Text';
+$title-font: 'SF Pro Text';
+
+@font-face {
+   font-family:"SF Pro Text";
+   src: url("./assets/font_sf_pro.ttf") format("truetype");
+ }
+.v-application {
+    font-family: 'SF Pro Text', sans-serif !important;
+     .title { // To pin point specific classes of some components
+        font-family: 'SF Pro Text', sans-serif !important;
+     }
+  }
+  html {
+   scroll-behavior: smooth !important;
+ }
